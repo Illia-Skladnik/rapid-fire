@@ -17,7 +17,7 @@
 }
 
 .main {
-    height: 2000px;
+    height: max-content;
 }
 
 .fire-explosion-block {
