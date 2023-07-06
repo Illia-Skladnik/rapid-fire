@@ -1,3 +1,5 @@
+@import "../fonts.css";
+
 .footer-logo-mobile {
     margin: 45px auto 0;
     display: block;
@@ -8,13 +10,17 @@
 }
 
 .footer {
+    font-family: "Owners";
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 3px;
+
     position: relative;
     width: 100vw;
     overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: end;
-    
 }
 
 .footer-bottom {
@@ -49,6 +55,10 @@
 }
 
 .disclaimer {
+    font-family: "Owners Narrow";
+    font-weight: 700;
+    font-style: normal;
+
     bottom: 0;
     font-size: 40px;
     font-weight: bold;
