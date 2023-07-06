@@ -62,7 +62,7 @@
     display: flex;
     width: 324px;
     justify-content: space-between;
-    margin: -196px auto 0;
+    margin: -196px auto 41px;
 }
 
 .games-arrow {
@@ -76,4 +76,12 @@
     height: 52px;
     margin: 0 auto;
     display: block;
+    text-decoration: none;
+    background-color: #f71273;
+    border-radius: 10px;
+    line-height: 52px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
 }
