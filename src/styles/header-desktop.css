@@ -12,8 +12,6 @@
     color: #fff;
     border-radius: 10px;
 
-    /* display: block; */
-
     text-decoration: none;
     line-height: 42px;
     text-align: center;
@@ -69,10 +67,6 @@
     .link:nth-of-type(3) {
         margin-right: 91px;
     }
-
-    /* .button:first-of-type {
-        margin-right: 30px;
-    } */
 }
 
 .logo {

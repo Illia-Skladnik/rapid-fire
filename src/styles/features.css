@@ -4,11 +4,11 @@
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
 
     @media(min-width: 1280px) {
         margin: 0;
+        flex-direction: row;
     }
 }
 
@@ -48,4 +48,26 @@
 
 .features-arrow-right {
     right: 25px;
+}
+
+.features-title-desktop {
+    width: max-content;
+    display: none;
+
+    @media(min-width: 1280px) {
+        display: block;
+    }
+}
+
+.features-subtitle {
+    width: 502px;
+}
+
+.features-deskription {
+    width: 435px;
+    display: block;
+}
+
+.features-text-block {
+
 }
