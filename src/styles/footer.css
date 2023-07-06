@@ -1,11 +1,13 @@
-@import "../fonts.css";
+@import "./fonts.css";
 
 .footer-logo-mobile {
-    margin: 45px auto 0;
+    margin: 45px auto 49px;
     display: block;
+    height: 152px;
 
     @media(min-width: 1280px) {
         display: none;
+        margin-bottom: 100px;
     }
 }
 
@@ -25,7 +27,6 @@
 
 .footer-bottom {
     background-color: #0e1851;
-    height: 441px;
     padding-top: 45px;
 }
 
