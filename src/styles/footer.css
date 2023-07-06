@@ -75,7 +75,7 @@
 
 .description {
     font-size: 18px;
-    font-weight: light;
+    font-weight: 300;
 
     @media (min-width: 1280px) {
         font-size: 20px;

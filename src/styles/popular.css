@@ -128,3 +128,32 @@
         display: block;
     } 
 }
+
+.sport-top-title {
+    width: 354px;
+    margin: 95px auto 48px;
+    display: block;
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+
+    @media(min-width: 1280px) {
+        display: block;
+        font-size: 50px;
+        width: 644px;
+        margin: 50px auto 35px;
+    } 
+}
+
+.sports-games-wrapper {
+    display: flex;
+    width: 324px;
+    justify-content: space-between;
+    margin: 0 auto 41px;
+
+    @media(min-width: 1280px) {
+        width: 1123px;
+        /* justify-content: space-between; */
+    } 
+}
