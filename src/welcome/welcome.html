@@ -3,9 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../styles/header-desktop.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/header-mobile.css" />
+    <link rel="stylesheet" type="text/css" href="./welcome.css" />
     <title>Document</title>
 </head>
 <body>
-    Welcome!
+  <header class="header-desktop">
+    <nav class="nav">
+      <img class="logo" src="../assets/images/Logo.png" alt="logo">
+      <a class="link" href="/">GAMES</a>
+      <a class="link" href="/">FEATURES</a>
+      <a class="link" href="/">REVIEWS</a>
+      <a href="/src/welcome/welcome.html" class="button login">LOGIN</a>
+      <a href="/" class="button register">REGISTER</a>
+    </nav>
+  </header>
+  <header class="header-mobile">
+    <nav class="nav-mobile">
+      <img class="logo-mobile" src="../assets/images/Logo.png" alt="logo">
+      <a href="/">
+        <img class="burger" src="../assets/images/Menumobile.png" alt="logo">
+      </a>
+    </nav>
+  </header>
+  <main>
+    <h1 class="login-title">welcome</h1>
+    <form action="get" class="login-form">
+      <label class="label">
+        E-mail
+        <input type="email" class="login-form-input" placeholder="Enter your e-mail address">
+      </label>
+      <label class="label">
+        Pasword
+        <input class="login-form-input" type="password" placeholder="Password">
+      </label>
+      <button type="submit" class="button login login-form-btn">
+        LOGIN
+      </button>
+    </form>
+    <a href="#" class="from-login-link">Forgot your password?</a>
+    <a href="#" class="from-login-link">
+      Don’t have an account?
+      <span class="register-span">
+        Register!
+      </span>
+    </a>
+  </main>
 </body>
 </html>
