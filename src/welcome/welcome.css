@@ -1,0 +1,94 @@
+@import "../styles/fonts.css";
+
+body {
+  background: #0c133c url('../assets/images/Game_controller.png') no-repeat 100% 70px;
+  color: #fff;
+}
+
+main {
+  padding-top: 61px;
+  max-width: 1057px;
+  margin: 0 auto;
+}
+
+.login-title {
+  font-family: "Owners Narrow";
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-size: 50px;
+  color: #F71273;
+
+  margin-bottom: 27px;
+}
+
+.login-form {
+  margin-bottom: 27px;
+  max-width: 558px;
+
+  .label {
+      font-family: "Owners Narrow";
+      font-weight: 500;
+      font-size: 20px;
+      letter-spacing: 2px;
+    }
+
+  .label:first-child {
+    display: block;
+      margin-bottom: 21px;
+  }
+}
+
+.login-form-input {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px 20px;
+  border-radius: 10px;
+}
+
+.login-form-input:focus {
+  outline: solid 2px #F71273;
+}
+
+.login-form-input::placeholder {
+  font-family: "Owners";
+  font-weight: 300;
+  color: #080248;
+  opacity: 0.15;
+  font-size: 16px;
+}
+
+.login-form-btn {
+  width: 100%;
+  font-family: "Owners Narrow";
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-top: 33px;
+}
+
+.from-login-link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  font-family: "Owners";
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 2px;
+
+  margin-bottom: 10px;
+}
+
+.from-login-link:hover {
+  color: #F71273;
+}
+
+.register-span {
+  color: #F71273;
+}
+
+.from-login-link:hover .register-span {
+  color: #fff;
+}
