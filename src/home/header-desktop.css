@@ -71,5 +71,7 @@
     @media (min-width: 1280px) {
         padding-top: 33px;
         display: block;
+        
+        /* position: r/ */
     }
 }

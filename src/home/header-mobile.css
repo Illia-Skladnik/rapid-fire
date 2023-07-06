@@ -1,9 +1,10 @@
 .header-mobile {
     display: block;
     padding-top: 31px;
+    position: relative;
+    z-index: 1;
     
     @media (min-width: 1280px) {
-        /* padding-top: 33px; */
         display: none;
     }
 }
@@ -17,7 +18,6 @@
 .logo-mobile {
     width: 154px;
     height: 89px;
-    /* margin: 0 auto; */
     display: block;
 }
 
