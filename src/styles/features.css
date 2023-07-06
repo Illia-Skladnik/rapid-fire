@@ -7,8 +7,9 @@
     align-items: center;
 
     @media(min-width: 1280px) {
-        margin: 0;
+        margin: 0 auto;
         flex-direction: row;
+        width: 1209px;
     }
 }
 
@@ -18,7 +19,6 @@
     color: #fff;
     width: fit-content;
     margin-bottom: 20px;
-    /* margin: 0 auto; */
 
     @media(min-width: 1280px) {
         display: none;
@@ -60,12 +60,27 @@
 }
 
 .features-subtitle {
-    width: 502px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f71273;
+    width: 335px;
+    
+    @media(min-width: 1280px) {
+        font-size: 60px;
+        width: 502px;
+    }
 }
 
 .features-deskription {
-    width: 435px;
+    width: 324px;
     display: block;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 300;
+
+    @media(min-width: 1280px) {
+        width: 435px;
+    }
 }
 
 .features-text-block {
