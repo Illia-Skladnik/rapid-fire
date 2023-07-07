@@ -11,3 +11,7 @@
 #burger-menu.show {
     display: block;
 }
+
+.hidden {
+    overflow-y: hidden;
+}
