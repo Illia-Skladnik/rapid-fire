@@ -13,8 +13,24 @@
     <link rel="stylesheet" type="text/css" href="./styles/features.css" />
     <link rel="stylesheet" type="text/css" href="./styles/reviews.css" />
     <link rel="stylesheet" type="text/css" href="./styles/vip.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/burger-menu.css" />
+    <script src="./scripts/main.js" defer></script>
 </head>
 <body>
+    <nav id="burger-menu" class="menu">
+        <div class="nav-container">
+            <img src="./assets/images/Logo.png" alt="logo">
+            <img class="burger-cross" src="./assets/images/close-buttonmobile.png" alt="close" id="cross">
+        </div>
+
+        <a class="burger-link" href="#popular-games">GAMES</a>
+        <a class="burger-link" href="#features">FEATURES</a>
+        <a class="burger-link" href="#reviews">REVIEWS</a>
+        <a class="burger-link" href="#subscribe">SUBSCRIBE</a>
+
+        <a href="/src/welcome/welcome.html" class="burger-button burger-login">LOGIN</a>
+        <a href="./register/register.html" class="burger-button burger-register">REGISTER</a>
+    </nav>
     <div class="page">
         <header id="header" class="header-desktop">
             <nav class="nav">
@@ -30,9 +46,7 @@
         <header class="header-mobile">
             <nav class="nav-mobile">
                 <img class="logo-mobile" src="./assets/images/Logo.png" alt="logo">
-                <a href="/">
-                    <img class="burger" src="./assets/images/Menumobile.png" alt="logo">
-                </a>
+                <img class="burger" src="./assets/images/Menumobile.png" alt="logo" id="burger-icon">
             </nav>
         </header>
 

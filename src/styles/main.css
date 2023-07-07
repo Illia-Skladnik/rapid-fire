@@ -3,3 +3,11 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+
+#burger-menu {
+    display: none;
+}
+  
+#burger-menu.show {
+    display: block;
+}
