@@ -28,11 +28,15 @@
 .features-img {
     width: 397px;
     height: 491px;
+
+    @media(min-width: 1280px) {
+        width: 707px;
+        height: 840px;
+    }
 }
 
 .features-img-wrapper {
     position: relative;
-    /* margin: 0 auto; */
 }
 
 .features-arrow {
@@ -40,6 +44,12 @@
     top: 285px;
     height: 22px;
     width: 22px;
+
+    @media(min-width: 1280px) {
+        width: 36px;
+        height: 37px;
+        top: 475px;
+    }
 }
 
 .features-arrow-left  {
@@ -51,8 +61,13 @@
 }
 
 .features-title-desktop {
+    color: #fff;
     width: max-content;
     display: none;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 48px;
+    margin-bottom: 54px;
 
     @media(min-width: 1280px) {
         display: block;
@@ -64,10 +79,13 @@
     font-weight: bold;
     color: #f71273;
     width: 335px;
+    line-height: 48px;
+    margin-bottom: 23px;
     
     @media(min-width: 1280px) {
         font-size: 60px;
         width: 502px;
+        line-height: 60px;
     }
 }
 
@@ -77,9 +95,13 @@
     font-size: 18px;
     color: #fff;
     font-weight: 300;
+    line-height: 24px;
+
 
     @media(min-width: 1280px) {
         width: 435px;
+        font-size: 20px;
+        line-height: 27px;
     }
 }
 
