@@ -28,12 +28,13 @@
 
 .reviews-wrapper {
     width: 324px;
-    margin: 0 auto;
+    margin: 0 auto 117px;
 
     @media(min-width: 1280px) {
         width: 1086px;
         display: flex;
         gap: 30px;
+        margin-bottom: 36px;
     } 
 
     .review-card:first-child {
@@ -58,9 +59,11 @@
 
     .review-card:last-child {
         background: url(../assets/images/thirddreviewmobile.png);
+        height: 558px;
 
         @media(min-width: 1280px) {
             background: url(../assets/images/thirdreviewdesktop.png);
+            height: 581px;
         } 
     }
 }
