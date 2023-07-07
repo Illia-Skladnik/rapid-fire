@@ -89,3 +89,13 @@
         display: block;
     }
 }
+
+.arrow-link {
+    margin: 109px auto 0 auto;
+    display: block;
+    width: max-content;
+
+    @media (min-width: 1280px) {
+        margin: 66px auto 0 auto;
+    }
+}
