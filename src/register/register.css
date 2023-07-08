@@ -1,0 +1,50 @@
+h1 {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(180deg, #0c133c 400px, #0E1851 100%);
+  color: #fff;
+  padding: 0 149px 83px 97px;
+}
+
+.register-title {
+  font-family: "Owners Narrow";
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-size: 50px;
+  color: #F71273;
+
+  margin-bottom: 27px;
+
+  @media (max-width: 1110px) {
+    margin-bottom: 35px;
+  }
+}
+
+.inputs {
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+  gap: 21px 30px;
+}
+
+.register-form-input {
+  display: block;
+}
+
+.checkbox-input {
+  margin-top: 37px;
+}
+
+.register-form-btn {
+  display: block;
+  width: 342px;
+  margin: 37px auto 0;
+}
+
+.register-from-link {
+  text-align: center;
+  margin-top: 18px;
+}
