@@ -11,6 +11,13 @@
   }
 }
 
+.label {
+  font-family: "Owners Narrow";
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
 .form-input:focus {
   outline: solid 2px #F71273;
 }
