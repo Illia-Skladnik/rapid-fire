@@ -4,7 +4,9 @@ h1 {
 
 body {
   margin: 0;
-  background: linear-gradient(180deg, #0c133c 400px, #0E1851 100%);
+  min-height: 100vh;
+  /* background: #0c133c url('../assets/images/fire-background.png') 0 124px/ 100% auto no-repeat; */
+  background: url('../assets/images/fire-background.png') 0 124px/ 100% auto no-repeat, linear-gradient(to top, #0E1851 50%, #0c133c 50%);
   color: #fff;
   padding: 0 149px 83px 97px;
 }
