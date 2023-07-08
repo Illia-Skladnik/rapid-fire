@@ -11,7 +11,7 @@
     justify-content: center;
     align-items: center;
 
-    display: none;
+    /* display: none; */
 }
 
 .cookies-background {
@@ -38,19 +38,32 @@
     height: 384px;
     z-index: 1;
     border-radius: 30px;
-    padding-left: 62px;
+    padding: 0 25px;
+
+    @media(min-width: 1280px) {
+        padding: 0 0 0 62px;
+    }
   }
 
   .cookies-logo {
-    margin: -60px auto 0;
-    display: block;
+    display: none;
+
+    @media(min-width: 1280px) {
+        margin: -60px auto 0;
+        display: block;
+    }
   }
 
 .cookies-img {
-    width: 258px;
-    height: 363px;
-    margin-top: -20px;
-    margin-left: -40px;
+    display: none;
+
+    @media(min-width: 1280px) {
+        display: block;
+        width: 258px;
+        height: 363px;
+        margin-top: -20px;
+        margin-left: -40px;
+    }
 }
 
 .content-wrapper {
@@ -65,13 +78,20 @@
     background-color: #F71273;
     color: #fff;
     border: 0;
-    width: 158px;
-    height: 42px;
+    width: 324px;
+    height: 48px;
     border-radius: 10px;
     font-size: 16px;
     line-height: 21px;
     font-weight: bold;
-    margin-right: 30px;
+    margin-bottom: 19px;
+    cursor: pointer;
+
+    @media(min-width: 1280px) {
+        margin: 0 30px 0 0;
+        width: 158px;
+        height: 42px;
+    } 
 }
 
 .cookie-btn:hover {
@@ -82,14 +102,21 @@
 .cookie-link {
     text-decoration: none;
     color: #fff;
-    width: 158px;
-    height: 42px;
+
+    width: 324px;
+    height: 48px;
     border: 2px solid #fff;
     display: block;
-    line-height: 38px;
+    line-height: 48px;
     text-align: center;
     border-radius: 10px;
     font-weight: bold;
+
+    @media(min-width: 1280px) {
+        width: 158px;
+        height: 42px;
+        line-height: 42px;
+    } 
 }
 
 .cookie-link:hover {
@@ -98,15 +125,26 @@
 }
 
 .buttons-wrapper {
-    display: flex;
+    width: 324px;
+    margin: 0 auto;
+
+    @media(min-width: 1280px) {
+        width: auto;
+        display: flex;
+        margin: 0;
+    } 
 }
 
 .cookies-title {
     font-family: "Owners Narrow";
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
     line-height: 50px;
     display: inline-block;
+
+    @media(min-width: 1280px) {
+        font-size: 50px;
+    }
 }
 
 .cookies-title-white {
