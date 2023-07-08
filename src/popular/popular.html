@@ -10,9 +10,26 @@
     <link rel="stylesheet" type="text/css" href="./styles/footer.css" />
     <link rel="stylesheet" type="text/css" href="./styles/popular.css" />
     <link rel="stylesheet" type="text/css" href="./styles/features.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/burger-menu.css" />
+    <script src="./scripts/popular.js" defer></script>
 </head>
-<body >
-    <div class="page" id="header-pop">
+<body id="body2">
+    <nav hidden id="burger-menu2" class="menu-pop">
+        <div class="nav-container-pop">
+            <img src="../assets/images/Logo.png" alt="logo">
+            <img class="burger-cross-pop" src="../assets/images/close-buttonmobile.png" alt="close" id="cross2">
+        </div>
+
+        <a class="burger-link-pop" href="#popular-games" id="burger-games2">GAMES</a>
+        <a class="burger-link-pop" href="#features" id="burger-features2">FEATURES</a>
+        <a class="burger-link-pop" href="#reviews" id="burger-reviews2">REVIEWS</a>
+        <a class="burger-link-pop" href="#subscribe" id="burger-subscribe2">SUBSCRIBE</a>
+
+        <a href="/src/welcome/welcome.html" class="burger-button-pop burger-login-pop">LOGIN</a>
+        <a href="../register/register.html" class="burger-button-pop burger-register-pop">REGISTER</a>
+    </nav>
+
+    <div class="page" id="header-pop2">
         <header class="header-desktop">
             <nav class="nav">
                 <img class="logo" src="../assets/images/Logo.png" alt="logo">
@@ -27,7 +44,7 @@
         <header class="header-mobile">
             <nav class="nav-mobile">
                 <img class="logo-mobile" src="../assets/images/Logo.png" alt="logo">
-                <img class="burger" src="../assets/images/Menumobile.png" alt="logo">
+                <img class="burger" src="../assets/images/Menumobile.png" alt="logo" id="burger-icon2">
             </nav>
         </header>
 
@@ -41,7 +58,7 @@
 
             <section class="popular-games">
                 <div class="popular-top">
-                    <span class="popular-top-title">POPULAR GAMES</span>
+                    <span class="popular-top-title" id="popular-games">POPULAR GAMES</span>
                     <img class="popular-top-fire" src="../assets/images/main-top-fire.png" alt="fire">
                 </div>
                 <div class="popular-middle-2">
@@ -79,7 +96,7 @@
                 </div>
             </section>
 
-            <section class="features">
+            <section class="features" id="features">
                 <h3 class="features-title-mobile">FEATURES</h3>
                 <div class="features-img-wrapper">
                     <img class="features-arrow features-arrow-left" src="../assets/images/arrleft.png" alt="arrow">

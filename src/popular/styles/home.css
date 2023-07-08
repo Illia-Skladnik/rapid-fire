@@ -138,3 +138,14 @@
     color: #F71273;
     background-color: #fff;
 }
+#burger-menu2 {
+    display: none;
+}
+  
+#burger-menu2.show {
+    display: block;
+}
+
+.hidden {
+    overflow-y: hidden;
+}
