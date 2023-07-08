@@ -5,6 +5,7 @@
     z-index: 2;
     width: 100%;
     overflow: hidden;
+    height: 100%;
 
     .burger-link:last-of-type {
         margin-bottom: 56px;

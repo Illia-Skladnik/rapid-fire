@@ -1,0 +1,30 @@
+@import "../../styles/fonts.css";
+
+.header-mobile {
+    display: block;
+    padding-top: 31px;
+    position: relative;
+    z-index: 1;
+    
+    @media (min-width: 1280px) {
+        display: none;
+    }
+}
+
+.nav-mobile {
+    position: relative;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.logo-mobile {
+    width: 154px;
+    height: 89px;
+    display: block;
+}
+
+.burger {
+    position: absolute;
+    right: -58px;
+    top: 0;
+}

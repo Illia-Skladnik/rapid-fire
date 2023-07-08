@@ -4,8 +4,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./styles/header-desktop.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/home.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/header-mobile.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/footer.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/popular.css" />
 </head>
-<body>
-    Popular games
+<body >
+    <div class="page">
+        <header class="header-desktop">
+            <nav class="nav">
+                <img class="logo" src="../assets/images/Logo.png" alt="logo">
+                <a class="link" href="#popular-games">GAMES</a>
+                <a class="link" href="#features">FEATURES</a>
+                <a class="link" href="#reviews">REVIEWS</a>
+                <a href="/src/welcome/welcome.html" class="button login">LOGIN</a>
+                <a href="../register/register.html" class="button register">REGISTER</a>
+            </nav>
+        </header>
+    
+        <header class="header-mobile">
+            <nav class="nav-mobile">
+                <img class="logo-mobile" src="../assets/images/Logo.png" alt="logo">
+                <img class="burger" src="../assets/images/Menumobile.png" alt="logo">
+            </nav>
+        </header>
+
+        <main class="main">
+            <section class="fire-explosion-block">
+                <img class="fire-explosion-mobile" src="../assets/images/fireexplosionmobile.png" alt="explosion">
+                <img class="fire-explosion-desktop" src="../assets/images/fireexplosiondesktop.png" alt="explosion">
+                <h3 class="fire-explosion-title">EXPERIENCE THE HEAT</h3>
+                <span class="fire-explosion-description">Unleash your winning streak in online social casino and sports gaming!</span>
+            </section>
+
+            <section class="popular-games">
+                <div class="popular-top">
+                    <span class="popular-top-title">POPULAR GAMES</span>
+                    <img class="popular-top-fire" src="../assets/images/main-top-fire.png" alt="fire">
+                </div>
+                <div class="popular-middle">
+                    <div class="popular-games-wrapper">
+                        <img class="games-arrow" src="../assets/images/arrleft.png" alt="arrow">
+                        <div class="popular-games-list">
+                            <div class="game">
+                                <img class="game-fire-img" src="../assets/images/fireimg.png" alt="fire">
+                                <img class="game-game-img" src="../assets/images/golden888.png" alt="game">
+                                <span class="game-text">GOLDEN 888</span>
+                            </div>
+
+                            <div class="game game-desktop">
+                                <img class="game-fire-img" src="../assets/images/fireimg.png" alt="fire">
+                                <img class="game-game-img" src="../assets/images/goldendragon.png" alt="game">
+                            </div>
+
+                            <div class="game game-desktop">
+                                <img class="game-fire-img" src="../assets/images/fireimg.png" alt="fire">
+                                <img class="game-game-img" src="../assets/images/loottrain.png" alt="game">
+                            </div>
+                            
+                            <div class="game game-desktop">
+                                <img class="game-fire-img" src="../assets/images/fireimg.png" alt="fire">
+                                <img class="game-game-img" src="../assets/images/legendary.png" alt="game">
+                            </div>
+                        </div>
+                    </div>       
+                </div>
+
+                <div class="popular-bottom">
+                    <img class="popular-bottom-fire" src="../assets/images/fire-rotated.png" alt="fire">
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-top">
+                <img class="footer-fire" src="../assets/images/fire-group-footer.png" alt="fire">
+                <h3 class="footer-text disclaimer">DISCLAIMER</h3>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-text-wrapper">
+                    <span class="footer-text description">Rapid Fire Slots is the perfect platform to unwind and have fun, with an extensive collection of games to choose from. We want to emphasize that we are not a gambling site and do not offer any in-app purchase options, making it a safe and enjoyable place for players 18 and older. </span>
+                    <a href="../terms/terms.html" class="footer-text description">Terms of use</a>
+                </div>
+                <img class="footer-logo-mobile" src="../assets/images/logosmobile.png" alt="logo">
+                <img class="footer-logo-desktop" src="../assets/images/desktoplogos.png" alt="logo">
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
