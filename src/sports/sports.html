@@ -4,8 +4,133 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./styles/header-desktop.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/home.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/header-mobile.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/footer.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/popular.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/features.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/burger-menu.css" />
+    <script src="./scripts/popular.js" defer></script>
 </head>
-<body>
-    Sports games
+<body id="body2">
+    <nav hidden id="burger-menu2" class="menu-pop">
+        <div class="nav-container-pop">
+            <img src="../assets/images/Logo.png" alt="logo">
+            <img class="burger-cross-pop" src="../assets/images/close-buttonmobile.png" alt="close" id="cross2">
+        </div>
+
+        <a class="burger-link-pop" href="#popular-games" id="burger-games2">GAMES</a>
+        <a class="burger-link-pop" href="#features" id="burger-features2">FEATURES</a>
+        <a class="burger-link-pop" href="#reviews" id="burger-reviews2">REVIEWS</a>
+        <a class="burger-link-pop" href="#subscribe" id="burger-subscribe2">SUBSCRIBE</a>
+
+        <a href="/src/welcome/welcome.html" class="burger-button-pop burger-login-pop">LOGIN</a>
+        <a href="../register/register.html" class="burger-button-pop burger-register-pop">REGISTER</a>
+    </nav>
+
+    <div class="page" id="header-pop">
+        <header class="header-desktop">
+            <nav class="nav">
+                <img class="logo" src="../assets/images/Logo.png" alt="logo">
+                <a class="link" href="#popular-games">GAMES</a>
+                <a class="link" href="#features">FEATURES</a>
+                <a class="link" href="#reviews">REVIEWS</a>
+                <a href="/src/welcome/welcome.html" class="button login">LOGIN</a>
+                <a href="../register/register.html" class="button register">REGISTER</a>
+            </nav>
+        </header>
+    
+        <header class="header-mobile">
+            <nav class="nav-mobile">
+                <img class="logo-mobile" src="../assets/images/Logo.png" alt="logo">
+                <img class="burger" src="../assets/images/Menumobile.png" alt="logo" id="burger-icon2">
+            </nav>
+        </header>
+
+        <main class="main">
+            <section class="fire-explosion-block">
+                <img class="fire-explosion-mobile" src="../assets/images/fireexplosionmobile.png" alt="explosion">
+                <img class="fire-explosion-desktop" src="../assets/images/fireexplosiondesktop.png" alt="explosion">
+                <h3 class="fire-explosion-title">EXPERIENCE THE HEAT</h3>
+                <span class="fire-explosion-description">Unleash your winning streak in online social casino and sports gaming!</span>
+            </section>
+
+            <section class="popular-games">
+                <div class="popular-top">
+                    <span class="popular-top-title" id="popular-games">SPORTS-THEMED GAMES</span>
+                    <img class="popular-top-fire" src="../assets/images/main-top-fire.png" alt="fire">
+                </div>
+                <div class="popular-middle-2">
+                    <div class="popular-games-wrapper">
+                        <div class="popular-games-list">
+                            <div class="game">
+                                <img class="game-fire-img" src="../assets/images/fireimg.png" alt="fire">
+                                <img class="game-game-img" src="../assets/images/basketball.png" alt="game">
+                                <span class="game-text">BASKET SWOOSHES</span>
+                            </div>
+
+                            <div class="game">
+                                <img class="game-fire-img" src="../assets/images/fireimg.png" alt="fire">
+                                <img class="game-game-img" src="../assets/images/pool.png" alt="game">
+                                <span class="game-text">POOL: BALL MANIA</span>
+                            </div>
+
+                            <div class="game">
+                                <img class="game-fire-img" src="../assets/images/fireimg.png" alt="fire">
+                                <img class="game-game-img" src="../assets/images/bowling.png" alt="game">
+                                <span class="game-text">CLASSIC BOWLING</span>
+                            </div>
+                            
+                            <div class="game">
+                                <img class="game-fire-img" src="../assets/images/fireimg.png" alt="fire">
+                                <img class="game-game-img" src="../assets/images/foosball.png" alt="game">
+                                <span class="game-text">FOOSBALL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="popular-bottom">
+                    <img class="popular-bottom-fire" src="../assets/images/fire-rotated.png" alt="fire">
+                </div>
+            </section>
+
+            <section class="features" id="features">
+                <h3 class="features-title-mobile">FEATURES</h3>
+                <div class="features-img-wrapper">
+                    <img class="features-arrow features-arrow-left" src="../assets/images/arrleft.png" alt="arrow">
+                    <img class="features-arrow features-arrow-right" src="../assets/images/arrright.png" alt="arrow">
+                    <img class="features-img" src="../assets/images/gear-with-flame.png" alt="flame">
+                </div>
+
+                <div class="features-text-block">
+                    <h2 class="features-title-desktop">FEATURES</h2>
+                    <h3 class="features-subtitle">PLAY ANYTIME, ANYWHERE</h3>
+                    <span class="features-deskription">Enjoy Rapid Fire Slots on your preferred device, whether it's a computer, smartphone, or tablet, for convenient gaming on the go.</span>
+                </div>
+            </section>    
+            <h2 class="interested-in-more">INTERESTED IN MORE?</h2>
+            <a class="sports-link" href="../popular/popular.html">GO TO POPULAR GAMES</a>
+            <a href="#header-pop" class="arrow-link">
+                <img src="../assets/images/arruppink.png" alt="arrow">
+            </a>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-top">
+                <img class="footer-fire" src="../assets/images/fire-group-footer.png" alt="fire">
+                <h3 class="footer-text disclaimer">DISCLAIMER</h3>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-text-wrapper">
+                    <span class="footer-text description">Rapid Fire Slots is the perfect platform to unwind and have fun, with an extensive collection of games to choose from. We want to emphasize that we are not a gambling site and do not offer any in-app purchase options, making it a safe and enjoyable place for players 18 and older. </span>
+                    <a href="../terms/terms.html" class="footer-text description">Terms of use</a>
+                </div>
+                <img class="footer-logo-mobile" src="../assets/images/logosmobile.png" alt="logo">
+                <img class="footer-logo-desktop" src="../assets/images/desktoplogos.png" alt="logo">
+            </div>
+        </footer>
+    </div>
 </body>
 </html>

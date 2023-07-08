@@ -1,0 +1,151 @@
+@import "../fonts.css";
+
+.page {
+    font-family: "Owners Narrow";
+    font-weight: 700;
+    font-style: normal;
+
+    background-color: #0c133c;
+    min-width: fit-content;
+    width: 100%;
+    position: relative;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.main {
+
+    
+}
+
+.fire-explosion-block {
+    position: absolute;
+    width: 100vw;
+    overflow: hidden;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fire-explosion-mobile {
+    width: 754px;
+    height: 754px;
+
+    @media (min-width: 1280px) {
+        display: none;
+    }
+}
+
+.fire-explosion-title {
+    width: 312px;
+    margin: 0 auto;
+    color: #fff;
+    position: absolute;
+    top: 298px;
+    font-size: 50px;
+    line-height: 53px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    font-weight: bold;
+
+    @media (min-width: 1280px) {
+        top: 289px;
+        width: 454px;
+        font-size: 73px;
+        line-height: 76px;
+    }
+}
+
+.fire-explosion-description {
+    display: block;
+    width: 234px;
+    margin: 0 auto;
+    position: absolute;
+    top: 422px;
+    font-size: 17px;
+    line-height: 19px;
+    letter-spacing: 4px;
+    font-weight: 500;
+    text-align: center;
+
+    @media (min-width: 1280px) {
+        top: 469px;
+        width: 344px;
+        font-size: 25px;
+        line-height: 27px;
+    }
+}
+
+.fire-explosion-desktop {
+    display: none;
+
+    @media (min-width: 1280px) {
+        position: relative;
+        top: -156px;
+        display: block;
+    }
+}
+
+.arrow-link {
+    margin: 109px auto 0 auto;
+    display: block;
+    width: max-content;
+
+    @media (min-width: 1280px) {
+        margin: 66px auto 0 auto;
+    }
+}
+
+.interested-in-more {
+    display: none;
+
+    @media (min-width: 1280px) {
+        letter-spacing: 8px;
+        display: block;
+        font-size: 60px;
+        color: #fff;
+        font-weight: bold;
+        line-height: 48px;
+        width: max-content;
+        margin: 90px auto 53px;
+    }
+}
+
+.sports-link {
+    display: none;
+
+    @media (min-width: 1280px) {
+        text-decoration: none;
+        font-size: 20px;
+        color: #fff;
+        background-color: #F71273;
+        width: 552px;
+        display: block;
+        height: 52px;
+        line-height: 52px;
+        border-radius: 10px;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+.sports-link:hover {
+    color: #F71273;
+    background-color: #fff;
+}
+#burger-menu2 {
+    display: none;
+}
+  
+#burger-menu2.show {
+    display: block;
+}
+
+.hidden {
+    overflow-y: hidden;
+}
