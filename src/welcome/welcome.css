@@ -14,7 +14,7 @@ body {
   @media (max-width: 1110px) {
     padding: 0 48px 87px;
     background: url('../assets/images/fire-background.png') center 20px/ 1224px auto no-repeat,
-      linear-gradient(to top, #0E1851 50%, #0c133c 50%)
+      linear-gradient(to top, #0E1851 50%, #0c133c 50%);
   }
 }
 
@@ -49,13 +49,6 @@ main {
   margin-bottom: 27px;
   max-width: 558px;
 
-  /* .label {
-      font-family: "Owners Narrow";
-      font-weight: 500;
-      font-size: 20px;
-      letter-spacing: 2px;
-    } */
-
   .label:first-child {
     display: block;
     margin-bottom: 21px;
@@ -70,55 +63,14 @@ main {
   }
 }
 
-/* .login-form-input {
-  margin-top: 20px;
-  /* width: 100%; */
-
-  /* @media (max-width: 1110px) {
-      margin-top: 18px;
-    } */
-/* } */ 
-
-/* .login-form-input:focus {
-  outline: solid 2px #F71273;
-}
-
-.login-form-input::placeholder {
-  font-family: "Owners";
-  font-weight: 300;
-  color: #080248;
-  opacity: 0.15;
-  font-size: 16px;
-} */
-
 .login-form-btn {
   width: 100%;
   margin-top: 33px;
 }
 
 .from-link-first {
-  /* display: block;
-  color: inherit;
-  text-decoration: none;
-  font-family: "Owners";
-  font-weight: 300;
-  font-size: 16px;
-  letter-spacing: 2px; */
-
   margin-bottom: 10px;
 }
-/* 
-.from-link:hover {
-  color: #F71273;
-}
-
-.pink-span {
-  color: #F71273;
-}
-
-.from-link:hover .pink-span {
-  color: #fff;
-} */
 
 #burger-menu2 {
   display: none;
