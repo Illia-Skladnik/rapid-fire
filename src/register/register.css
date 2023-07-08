@@ -105,3 +105,19 @@ main {
   background: #fff url('../assets/images/check.png') center /18px 18px no-repeat;
 }
 
+#burger-menu2 {
+  display: none;
+}
+
+#burger-menu2.show {
+  display: block;
+  margin-left: -97px;
+  
+  @media (max-width: 1110px) {
+    margin-left: -48px;
+  }
+}
+
+.hidden {
+  overflow-y: hidden;
+}

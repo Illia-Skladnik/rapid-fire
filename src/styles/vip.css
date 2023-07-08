@@ -67,7 +67,7 @@
 }
 
 .vip-input {
-    background-color: #707070;
+    background-color: #5F647F;
     width: 324px;
     height: 48px;
     border-radius: 10px;
@@ -75,6 +75,7 @@
     color: #fff;
     margin: 0 auto 27px;
     display: block;
+    padding-left: 19px;
 
     @media(min-width: 1280px) {
         width: 528px;
@@ -129,6 +130,7 @@
 }
 
 .vip-form {
+    margin-left: 3px;
     @media(min-width: 1280px) {
         display: flex;
     } 
