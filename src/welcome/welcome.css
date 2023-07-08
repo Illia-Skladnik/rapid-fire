@@ -6,13 +6,19 @@ h1 {
 
 body {
   margin: 0;
+  box-sizing: border-box;
   height: 100vh;
   background: #0c133c url('../assets/images/Game_controller.png') no-repeat 100% 70px;
   color: #fff;
-
-  @media (max-width: 1110px) {
+  
+  @media (max-width: 1110px) and (max-height: 890px) {
     padding: 0 48px;
-    background:url('../assets/images/main-top-fire.png') 50% 18%/ 1429px 294px no-repeat, linear-gradient(to bottom, #0c133c 50%, #0E1851 50%);
+    background:url('../assets/images/main-top-fire.png') 50% 8%/ 1429px 294px no-repeat, linear-gradient(to top, #0E1851 62%, #0c133c 60%);
+  }
+  
+  @media (max-width: 1110px) and (min-height: 890px) {
+    padding: 0 48px;
+    background:url('../assets/images/main-top-fire.png') 50% 8%/ 1429px 294px no-repeat, linear-gradient(to top, #0E1851 73%, #0c133c 60%);
   }
 }
 
