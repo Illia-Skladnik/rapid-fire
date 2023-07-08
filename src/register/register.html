@@ -3,9 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../styles/header-desktop.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/header-mobile.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/form.css" />
+    <link rel="stylesheet" type="text/css" href="./register.css" />
     <title>Document</title>
 </head>
 <body>
-    Register
+      <header class="header-desktop">
+        <nav class="nav">
+          <img class="logo" src="../assets/images/Logo.png" alt="logo">
+          <a class="link" href="/">GAMES</a>
+          <a class="link" href="/">FEATURES</a>
+          <a class="link" href="/">REVIEWS</a>
+          <a href="/src/welcome/welcome.html" class="button login">LOGIN</a>
+          <a href="../register//register.html" class="button register">REGISTER</a>
+        </nav>
+      </header>
+      <header class="header-mobile">
+        <nav class="nav-mobile">
+          <img class="logo-mobile" src="../assets/images/Logo.png" alt="logo">
+          <a href="/">
+            <img class="burger" src="../assets/images/Menumobile.png" alt="logo">
+          </a>
+        </nav>
+      </header>
+      <main>
+        <img src="../assets/images/main-top-fire.png">
+        <h1 class="register-title">
+          register
+        </h1>
+        <form action="#" method="post">
+          <div class="inputs">
+            <label class="label">
+              First name
+              <input type="text" class="register-form-input form-input" placeholder="Your name">
+            </label>
+            <label class="label">
+              Last name
+              <input type="text" class="register-form-input form-input" placeholder="Your surname">
+            </label>
+            <label class="label">
+              E-mail
+              <input type="email" class="register-form-input form-input" placeholder="Your e-mail">
+            </label>
+            <label class="label">
+              Birthdate
+              <input type="date" class="register-form-input form-input" placeholder="DD/MM/YYYY">
+            </label>
+            <label class="label">
+              Phone number
+              <input type="tel" class="register-form-input form-input" placeholder="Your phone number">
+            </label>
+            <label class="label">
+              Country
+              <input type="text" class="register-form-input form-input" placeholder="Choose your country">
+            </label>
+            <label class="label">
+              Pasword
+              <input type="password" class="register-form-input form-input" placeholder="Pasword">
+            </label>
+            <label class="label">
+              Confirm Pasword
+              <input type="password" class="register-form-input form-input" placeholder="Pasword">
+            </label>
+          </div>
+          <label class="from-link">
+            <input type="checkbox" class="checkbox-input">
+            I accept the terms of use
+          </label>
+          <button type="submit" class="button login form-btn register-form-btn">
+            register
+          </button>
+          <a href="#" class="from-link register-from-link">
+            Already have an account?
+            <span class="pink-span">
+              Log In!
+            </span>
+          </a>
+        </form>
+      </main>
 </body>
 </html>
