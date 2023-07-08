@@ -14,6 +14,7 @@
 * {
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 .main {
@@ -98,4 +99,42 @@
     @media (min-width: 1280px) {
         margin: 66px auto 0 auto;
     }
+}
+
+.interested-in-more {
+    display: none;
+
+    @media (min-width: 1280px) {
+        letter-spacing: 8px;
+        display: block;
+        font-size: 60px;
+        color: #fff;
+        font-weight: bold;
+        line-height: 48px;
+        width: max-content;
+        margin: 90px auto 53px;
+    }
+}
+
+.sports-link {
+    display: none;
+
+    @media (min-width: 1280px) {
+        text-decoration: none;
+        font-size: 20px;
+        color: #fff;
+        background-color: #F71273;
+        width: 552px;
+        display: block;
+        height: 52px;
+        line-height: 52px;
+        border-radius: 10px;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+.sports-link:hover {
+    color: #F71273;
+    background-color: #fff;
 }
