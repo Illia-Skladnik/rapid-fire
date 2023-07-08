@@ -1,14 +1,30 @@
 @import "../styles/fonts.css";
 
+h1 {
+  margin: 0;
+}
+
 body {
+  margin: 0;
+  height: 100vh;
   background: #0c133c url('../assets/images/Game_controller.png') no-repeat 100% 70px;
   color: #fff;
+
+  @media (max-width: 1110px) {
+    padding: 0 48px;
+    background:url('../assets/images/main-top-fire.png') 50% 18%/ 1429px 294px no-repeat, linear-gradient(to bottom, #0c133c 50%, #0E1851 50%);
+  }
 }
 
 main {
   padding-top: 61px;
   max-width: 1057px;
   margin: 0 auto;
+
+  @media (max-width: 1110px) {
+    padding-top: 45px;
+    width: max-content;
+  }
 }
 
 .login-title {
@@ -20,11 +36,16 @@ main {
   color: #F71273;
 
   margin-bottom: 27px;
+
+  @media (max-width: 1110px) {
+      margin-bottom: 35px;
+    }
 }
 
 .login-form {
   margin-bottom: 27px;
   max-width: 558px;
+  min-width: 324px;
 
   .label {
       font-family: "Owners Narrow";
@@ -35,7 +56,11 @@ main {
 
   .label:first-child {
     display: block;
-      margin-bottom: 21px;
+    margin-bottom: 21px;
+  }
+
+  @media (max-width: 1110px) {
+    margin-bottom: 35px;
   }
 }
 
@@ -46,6 +71,10 @@ main {
   margin-top: 20px;
   padding: 12px 20px;
   border-radius: 10px;
+
+  @media (max-width: 1110px) {
+      margin-top: 18px;
+    }
 }
 
 .login-form-input:focus {
@@ -67,6 +96,10 @@ main {
   font-size: 20px;
   letter-spacing: 2px;
   margin-top: 33px;
+
+  @media (max-width: 1110px) {
+      margin-top: 48px;
+    }
 }
 
 .from-login-link {
