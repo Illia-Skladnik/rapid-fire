@@ -6,7 +6,6 @@ h1 {
 
 body {
   margin: 0;
-  /* padding-bottom: 87px; */
   box-sizing: border-box;
   min-height: 100vh;
   background: #0c133c url('../assets/images/Game_controller.png') no-repeat 100% 70px;
@@ -14,15 +13,9 @@ body {
   
   @media (max-width: 1110px) {
     padding: 0 48px 87px;
-    /* background:#0c133c url('../assets/images/fire-background.png') 0 124px/ 100% auto no-repeat; */
     background: url('../assets/images/fire-background.png') center 20px/ 1224px auto no-repeat,
       linear-gradient(to top, #0E1851 50%, #0c133c 50%)
   }
-/*   
-  @media (max-width: 1110px) and (min-height: 890px) {
-    padding: 0 48px 87px;
-    background:url('../assets/images/main-top-fire.png') 50% 8%/ 1429px 294px no-repeat, linear-gradient(to top, #0E1851 73%, #0c133c 60%);
-  } */
 }
 
 main {
@@ -48,6 +41,7 @@ main {
 
   @media (max-width: 1110px) {
       margin-bottom: 35px;
+      font-size: 40px;
     }
 }
 
@@ -55,12 +49,12 @@ main {
   margin-bottom: 27px;
   max-width: 558px;
 
-  .label {
+  /* .label {
       font-family: "Owners Narrow";
       font-weight: 500;
       font-size: 20px;
       letter-spacing: 2px;
-    }
+    } */
 
   .label:first-child {
     display: block;

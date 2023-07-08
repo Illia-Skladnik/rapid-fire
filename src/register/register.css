@@ -1,3 +1,5 @@
+@import "../styles/fonts.css";
+
 h1 {
   margin: 0;
 }
@@ -9,6 +11,10 @@ body {
   background: url('../assets/images/fire-background.png') 0 124px/ 100% auto no-repeat, linear-gradient(to top, #0E1851 50%, #0c133c 50%);
   color: #fff;
   padding: 0 149px 83px 97px;
+}
+
+main {
+  padding-top: 133px;
 }
 
 .register-title {
@@ -23,6 +29,7 @@ body {
 
   @media (max-width: 1110px) {
     margin-bottom: 35px;
+    font-size: 40px;
   }
 }
 
@@ -36,7 +43,7 @@ body {
   display: block;
 }
 
-.checkbox-input {
+.from-link-label {
   margin-top: 37px;
 }
 
@@ -50,3 +57,31 @@ body {
   text-align: center;
   margin-top: 18px;
 }
+
+.checkbox-input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.checkbox-input+label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+
+.checkbox-input+label::before {
+  content: '';
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid #adb5bd;
+  margin-right: 30px;
+}
+
+.checkbox-input:checked+label::before {
+  background: #fff url('../assets/images/check.png') center /18px 18px no-repeat;
+}
+
