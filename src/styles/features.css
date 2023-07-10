@@ -21,7 +21,12 @@
     margin-bottom: 20px;
 
     @media(min-width: 1280px) {
-        display: none;
+        color: #fff;
+        width: max-content;
+        font-size: 50px;
+        font-weight: bold;
+        line-height: 48px;
+        margin-bottom: 54px;
     }
 }
 
@@ -59,7 +64,7 @@
 .features-arrow-right {
     right: 0;
 }
-
+/* 
 .features-title-desktop {
     color: #fff;
     width: max-content;
@@ -72,7 +77,7 @@
     @media(min-width: 1280px) {
         display: block;
     }
-}
+} */
 
 .features-subtitle {
     font-size: 40px;
