@@ -26,14 +26,14 @@ p {
 body {
   margin: 0;
   min-height: 100vh;
-  background: url('../assets/images/fire-background.png') 0 124px/ 100% auto no-repeat, linear-gradient(to top, #0E1851 50%, #0E1851 50%);
+  background: url('../assets/images/fire-background.png') 0 124px/ 100% auto no-repeat, linear-gradient(to top, #0E1851 80%, #0c133c 30%);
   color: #fff;
   padding: 0 149px 83px 97px;
 
   @media (max-width: 1110px) {
     padding: 0 48px 87px;
     background: url('../assets/images/fire-background.png') center 20px/ 1224px auto no-repeat,
-      linear-gradient(to top, #0E1851 50%, #0c133c 50%);
+      linear-gradient(to top, #0E1851 90%, #0c133c 20%);
   }
 }
 
