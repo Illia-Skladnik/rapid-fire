@@ -12,8 +12,8 @@
     align-items: center;
 }
 
-.disabled-c {
-    /* display: none; */
+.disabled {
+    display: none;
 }
 
 .cookies-background {
