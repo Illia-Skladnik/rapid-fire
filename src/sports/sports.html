@@ -11,6 +11,8 @@
     <link rel="stylesheet" type="text/css" href="./styles/popular.css" />
     <link rel="stylesheet" type="text/css" href="./styles/features.css" />
     <link rel="stylesheet" type="text/css" href="./styles/burger-menu.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/features.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/main-carousel.css" />
     <script src="./scripts/popular.js" defer></script>
 </head>
 <body id="body2">
@@ -96,7 +98,7 @@
                 </div>
             </section>
 
-            <section class="features">
+            <!-- <section class="features">
                 <h3 class="features-title-mobile">FEATURES</h3>
                 <div class="features-img-wrapper">
                     <img class="features-arrow features-arrow-left" src="../assets/images/arrleft.png" alt="arrow">
@@ -109,7 +111,91 @@
                     <h3 id="features" class="features-subtitle">PLAY ANYTIME, ANYWHERE</h3>
                     <span class="features-deskription">Enjoy Rapid Fire Slots on your preferred device, whether it's a computer, smartphone, or tablet, for convenient gaming on the go.</span>
                 </div>
-            </section>    
+            </section>     -->
+            <section class="features" id="features-carousel">
+              <h3 class="features-title-mobile">FEATURES</h3>
+              <div class="carousel-container">
+                <div class="carousel">
+                  <ul class="slides">
+                    <input type="radio" name="radio-buttons" id="img-1" checked />
+                    <li class="slide-container">
+                      <div class="slide-image">
+                        <div class="slide-img-wrapper">
+                          <img class="features-arrow features-arrow-left" src="../assets/images/arrleft.png" alt="arrow">
+                          <img class="features-arrow features-arrow-right" src="../assets/images/arrright.png" alt="arrow">
+                          <img class="features-img" src="../assets/images/trophywithflame.png" alt="flame">
+                        </div>
+                        <div class="slide-text-block">
+                          <h3 class="features-subtitle">PLAY, WIN AND DOMINATE</h3>
+                          <span class="features-deskription">We are glad that Rapid Fire Slots has become a guarantee of
+                            quality in
+                            itself as our team of professionals has worked hard to find and approve the best games to include
+                            in our
+                            platform.</span>
+                        </div>
+                      </div>
+                      <div class="carousel-controls">
+                        <label for="img-3" class="prev-slide">
+                          <span class="invisible-span">&lsaquo;</span>
+                        </label>
+                        <label for="img-2" class="next-slide">
+                          <span class="invisible-span">&rsaquo;</span>
+                        </label>
+                      </div>
+                    </li>
+                    <input type="radio" name="radio-buttons" id="img-2" />
+                    <li class="slide-container">
+                      <div class="slide-image">
+                        <div class="slide-img-wrapper">
+                          <img class="features-arrow features-arrow-left" src="../assets/images/arrleft.png" alt="arrow">
+                          <img class="features-arrow features-arrow-right" src="../assets/images/arrright.png" alt="arrow">
+                          <img class="features-img" src="../assets/images/gear-with-flame.png" alt="flame">
+                        </div>
+                        <div class="slide-text-block">
+                          <h3 class="features-subtitle">REGULAR
+                            UPDATES</h3>
+                          <span class="features-deskription">Look forward to regular updates with new game additions and
+                            features,
+                            ensuring that your gaming experience stays fresh
+                            and engaging.</span>
+                        </div>
+                      </div>
+                      <div class="carousel-controls">
+                        <label for="img-1" class="prev-slide">
+                          <span class="invisible-span">&lsaquo;</span>
+                        </label>
+                        <label for="img-3" class="next-slide">
+                          <span class="invisible-span">&rsaquo;</span>
+                        </label>
+                      </div>
+                    </li>
+                    <input type="radio" name="radio-buttons" id="img-3" />
+                    <li class="slide-container">
+                      <div class="slide-image">
+                        <div class="slide-img-wrapper">
+                          <img class="features-arrow features-arrow-left" src="../assets/images/arrleft.png" alt="arrow">
+                          <img class="features-img" src="../assets/images/gameboy-with-flame.png" alt="flame">
+                          <img class="features-arrow features-arrow-right" src="../assets/images/arrright.png" alt="arrow">
+                        </div>
+                        <div class="slide-text-block">
+                          <h3 class="features-subtitle">PLAY ANYTIME, ANYWHERE</h3>
+                          <span class="features-deskription">Enjoy Rapid Fire Slots on your preferred device, whether it's a
+                            computer, smartphone, or tablet, for convenient on the go.</span>
+                        </div>
+                      </div>
+                      <div class="carousel-controls">
+                        <label for="img-2" class="prev-slide">
+                          <span class="invisible-span">&lsaquo;</span>
+                        </label>
+                        <label for="img-1" class="next-slide">
+                          <span class="invisible-span">&rsaquo;</span>
+                        </label>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </section>
             <h2 class="interested-in-more">INTERESTED IN MORE?</h2>
             <a class="sports-link" href="../popular/popular.html">GO TO POPULAR GAMES</a>
             <a href="#header-pop" class="arrow-link">

@@ -66,20 +66,6 @@
 .features-arrow-right {
     right: 0;
 }
-/* 
-.features-title-desktop {
-    color: #fff;
-    width: max-content;
-    display: none;
-    font-size: 50px;
-    font-weight: bold;
-    line-height: 48px;
-    margin-bottom: 54px;
-
-    @media(min-width: 1280px) {
-        display: block;
-    }
-} */
 
 .features-subtitle {
     font-size: 40px;
