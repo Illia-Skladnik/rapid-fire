@@ -14,7 +14,7 @@ body {
   @media (max-width: 1110px) {
     padding: 0 48px 87px;
     background: url('../assets/images/fire-background.png') center 20px/ 1224px auto no-repeat,
-      linear-gradient(to top, #0E1851 50%, #0c133c 50%);
+      linear-gradient(to top, #0E1851 60%, #0c133c 40%);
   }
 }
 
