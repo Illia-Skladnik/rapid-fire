@@ -32,13 +32,13 @@
 }
 
 .features-img {
-    width: 397px;
+    width: 350px;
     height: 491px;
+    object-fit: contain;
 
     @media(min-width: 1280px) {
         width: 700px;
         height: 840px;
-        object-fit: contain;
     }
 }
 
