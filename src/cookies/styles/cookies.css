@@ -1,4 +1,4 @@
-@import '../styles/fonts.css';
+/* @import '../styles/fonts.css'; */
 
 .cookies {
     width: 100vw;
@@ -12,8 +12,8 @@
     align-items: center;
 }
 
-.disabled-c {
-    /* display: none; */
+.disabled {
+    display: none;
 }
 
 .cookies-background {

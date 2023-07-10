@@ -11,6 +11,9 @@ In order to activate a page with cookies, you must deactivate in the
     display: none;
 }
 
+You can also get the cookie page from the following link:
+/src/cookies/cookies.html
+
 HOME – 6 => /src/welcome/welcome.html
 HOME – 7 => /src/register/register.html
 MENU_MOB – 1 => menu works on all pages with the burger menu icon
