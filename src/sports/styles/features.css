@@ -31,7 +31,7 @@
 .features-img {
     width: 344px;
     height: 589px;
-    margin-left: -50px;
+    /* margin-left: -50px; */
 
 
     @media(min-width: 1280px) {
