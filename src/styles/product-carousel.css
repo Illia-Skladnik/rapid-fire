@@ -1,0 +1,260 @@
+.product-carousel {
+  width: 324px;
+  margin: 0 auto;
+  margin-bottom: 45px;
+
+  @media(min-width: 1280px) {
+    display: none;
+  }
+}
+
+.product-carousel-container {
+  width: 100%;
+}
+
+ul.product-slides {
+  display: block;
+  position: relative;
+  height: 357px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  list-style: none;
+}
+
+.product-slides * {
+  user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+}
+
+ul.product-slides input {
+  display: none;
+}
+
+.product-slide-container {
+  display: block;
+}
+
+.product-slide-img-wrapper {
+  position: relative;
+  margin: 0 auto;
+  width: 355px;
+}
+
+.product-slide-img {
+  height: 357px;
+}
+.product-arrow-next {
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+
+.product-arrow-prev {
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+
+.product-slide-image {
+  display: block;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  opacity: 0;
+  transition: all .7s ease-in-out;
+}
+
+.product-carousel-controls {
+  position: absolute;
+  top: 47%;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  font-size: 100px;
+  line-height: 40px;
+  color: #fff;
+}
+
+.invisible-span {
+  opacity: 0;
+}
+
+.product-carousel-controls label {
+  display: none;
+  position: absolute;
+  padding: 0 20px;
+  opacity: 0;
+  transition: opacity .2s;
+  cursor: pointer;
+}
+
+.product-slide-image:hover+.carousel-controls label {
+  opacity: 0.5;
+}
+
+.product-carousel-controls label:hover {
+  opacity: 1;
+}
+
+.product-carousel-controls .product-prev-slide {
+  width: 20%;
+  text-align: left;
+  left: 0;
+}
+
+.product-carousel-controls .product-next-slide {
+  width: 20%;
+  text-align: right;
+  right: 0;
+}
+
+input:checked+.product-slide-container .product-slide-image {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 1s ease-in-out;
+}
+
+input:checked+.product-slide-container .product-carousel-controls label {
+  display: block;
+}
+
+input:checked+.product-slide-container .nav label {
+  display: block;
+}
+
+.popular-carousel {
+  width: 324px;
+  margin: -196px auto 45px;
+
+  @media(min-width: 1280px) {
+    display: none;
+  }
+}
+
+.popular-carousel-container {
+  width: 100%;
+}
+
+ul.popular-slides {
+  display: block;
+  position: relative;
+  height: 357px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  list-style: none;
+}
+
+.popular-slides * {
+  user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+}
+
+ul.popular-slides input {
+  display: none;
+}
+
+.popular-slide-container {
+  display: block;
+}
+
+.popular-slide-img-wrapper {
+  position: relative;
+  margin: 0 auto;
+  width: 355px;
+}
+
+.popular-slide-img {
+  height: 357px;
+}
+.popular-arrow-next {
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+
+.popular-arrow-prev {
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+
+.popular-slide-image {
+  display: block;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  opacity: 0;
+  transition: all .7s ease-in-out;
+}
+
+.popular-carousel-controls {
+  position: absolute;
+  top: 47%;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  font-size: 100px;
+  line-height: 40px;
+  color: #fff;
+}
+
+.invisible-span {
+  opacity: 0;
+}
+
+.popular-carousel-controls label {
+  display: none;
+  position: absolute;
+  padding: 0 20px;
+  opacity: 0;
+  transition: opacity .2s;
+  cursor: pointer;
+}
+
+.popular-slide-image:hover+.carousel-controls label {
+  opacity: 0.5;
+}
+
+.popular-carousel-controls label:hover {
+  opacity: 1;
+}
+
+.popular-carousel-controls .popular-prev-slide {
+  width: 20%;
+  text-align: left;
+  left: 0;
+}
+
+.popular-carousel-controls .popular-next-slide {
+  width: 20%;
+  text-align: right;
+  right: 0;
+}
+
+input:checked+.popular-slide-container .popular-slide-image {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 1s ease-in-out;
+}
+
+input:checked+.popular-slide-container .popular-carousel-controls label {
+  display: block;
+}
+
+input:checked+.popular-slide-container .nav label {
+  display: block;
+}

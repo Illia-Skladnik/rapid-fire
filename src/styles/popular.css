@@ -79,7 +79,7 @@
     } 
 }
 
-.popular-games-wrapper {
+/* .popular-games-wrapper {
     display: flex;
     width: 324px;
     justify-content: space-between;
@@ -87,7 +87,17 @@
 
     @media(min-width: 1280px) {
         width: 1123px;
-        /* justify-content: space-between; */
+    } 
+} */
+
+.popular-games-wrapper {
+  display: none;
+  
+  @media(min-width: 1280px) {
+      display: flex;
+      justify-content: space-between;
+      margin: -196px auto 41px;
+        width: 1123px;
     } 
 }
 
@@ -150,13 +160,24 @@
     } 
 }
 
-.sports-games-wrapper {
+/* .sports-games-wrapper {
     display: flex;
     width: 324px;
     justify-content: space-between;
     margin: 0 auto 41px;
 
     @media(min-width: 1280px) {
+        width: 1123px;
+    } 
+} */
+
+.sports-games-wrapper {
+  display: none;
+  
+  @media(min-width: 1280px) {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto 41px;
         width: 1123px;
         /* justify-content: space-between; */
     } 
