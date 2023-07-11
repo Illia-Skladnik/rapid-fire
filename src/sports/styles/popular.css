@@ -35,16 +35,23 @@
     color: #fff;
 }
 
+.sports-link-c {
+    margin-bottom: 105px;
+    display: block;
+
+    @media(min-width: 1280px) {
+        margin-bottom: 0;
+    } 
+}
+
 .game {
     position: relative;
     width: 250px;
     height: 358px;
-    margin-bottom: 105px;
 
     @media(min-width: 1280px) {
         width: 309px;
         height: 443px;
-        margin-bottom: 0;
     } 
 }
 
