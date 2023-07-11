@@ -86,7 +86,18 @@ ul.product-slides input {
   opacity: 0;
 }
 
-.product-carousel-controls label {
+.product-carousel-controls .product-cur-slide {
+  position: absolute;
+  width: 60%;
+  height: 350px;
+  text-align: left;
+  left: 20%;
+  text-decoration: none;
+  font-size: 1px;
+}
+
+.product-carousel-controls label,
+.product-carousel-controls a {
   display: none;
   position: absolute;
   padding: 0 20px;
@@ -95,11 +106,9 @@ ul.product-slides input {
   cursor: pointer;
 }
 
-.product-slide-image:hover+.carousel-controls label {
-  opacity: 0.5;
-}
 
-.product-carousel-controls label:hover {
+.product-carousel-controls label:hover,
+.product-carousel-controls a:hover {
   opacity: 1;
 }
 
@@ -121,11 +130,13 @@ input:checked+.product-slide-container .product-slide-image {
   transition: opacity 1s ease-in-out;
 }
 
-input:checked+.product-slide-container .product-carousel-controls label {
+input:checked+.product-slide-container .product-carousel-controls label,
+input:checked+.product-slide-container .product-carousel-controls a {
   display: block;
 }
 
-input:checked+.product-slide-container .nav label {
+input:checked+.product-slide-container .nav label,
+input:checked+.product-slide-container .nav a {
   display: block;
 }
 
@@ -167,12 +178,14 @@ ul.popular-slides input {
 
 .popular-slide-container {
   display: block;
+  position: relative;
 }
 
 .popular-slide-img-wrapper {
   position: relative;
   margin: 0 auto;
   width: 355px;
+  /* z-index: 999; */
 }
 
 .popular-slide-img {
@@ -180,13 +193,13 @@ ul.popular-slides input {
 }
 .popular-arrow-next {
   position: absolute;
-  top: 50%;
+  top: 223px;
   right: 0;
 }
 
 .popular-arrow-prev {
   position: absolute;
-  top: 50%;
+  top: 223px;
   left: 0;
 }
 
@@ -199,6 +212,7 @@ ul.popular-slides input {
   top: 0;
   opacity: 0;
   transition: all .7s ease-in-out;
+  /* position: relative; */
 }
 
 .popular-carousel-controls {
@@ -216,7 +230,8 @@ ul.popular-slides input {
   opacity: 0;
 }
 
-.popular-carousel-controls label {
+.popular-carousel-controls label,
+.popular-carousel-controls a {
   display: none;
   position: absolute;
   padding: 0 20px;
@@ -225,11 +240,13 @@ ul.popular-slides input {
   cursor: pointer;
 }
 
-.popular-slide-image:hover+.carousel-controls label {
+.popular-slide-image:hover+.carousel-controls label,
+.popular-slide-image:hover+.carousel-controls a {
   opacity: 0.5;
 }
 
-.popular-carousel-controls label:hover {
+.popular-carousel-controls label:hover,
+.popular-carousel-controls a:hover {
   opacity: 1;
 }
 
@@ -237,12 +254,24 @@ ul.popular-slides input {
   width: 20%;
   text-align: left;
   left: 0;
+  top: 223px;
+}
+
+.popular-carousel-controls .popular-cur-slide {
+  position: absolute;
+  width: 60%;
+  height: 350px;
+  text-align: left;
+  left: 20%;
+  text-decoration: none;
+  font-size: 1px;
 }
 
 .popular-carousel-controls .popular-next-slide {
   width: 20%;
   text-align: right;
   right: 0;
+  top: 223px;
 }
 
 input:checked+.popular-slide-container .popular-slide-image {
@@ -251,10 +280,12 @@ input:checked+.popular-slide-container .popular-slide-image {
   transition: opacity 1s ease-in-out;
 }
 
-input:checked+.popular-slide-container .popular-carousel-controls label {
+input:checked+.popular-slide-container .popular-carousel-controls label,
+input:checked+.popular-slide-container .popular-carousel-controls a {
   display: block;
 }
 
-input:checked+.popular-slide-container .nav label {
+input:checked+.popular-slide-container .nav label,
+input:checked+.popular-slide-container .nav a {
   display: block;
 }
