@@ -17,10 +17,9 @@
     scroll-behavior: smooth;
 }
 
-.main {
-
-    
-}
+.link-pop {
+    display: block
+  }
 
 .fire-explosion-block {
     position: absolute;
