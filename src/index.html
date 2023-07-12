@@ -20,7 +20,7 @@
     <script src="./scripts/main.js" defer></script>
 </head>
 <body id="body">
-    <div class="cookies disabled">
+    <div id="cookie-modal" class="cookies disabled">
         <div class="blur-overlay">
             <img class="cookies-background" src="./assets/images/background.png" alt="background">
         </div>
@@ -35,8 +35,8 @@
                     <span class="cookies-description">We use cookies to ensure that we give you the best experience on our website. By continuing to browse the site, you are agreeing to our use of cookies.</span>
                     
                     <div class="buttons-wrapper">
-                        <button class="cookie-btn">ALLOW COOKIES</button>
-                        <a class="cookie-link" href="#">READ MORE</a>
+                        <button id="accept-cookies" class="cookie-btn">ALLOW COOKIES</button>
+                        <a class="cookie-link" href="./policy/policy.html">READ MORE</a>
                     </div>
                 </div>
                 <img class="cookies-img" src="../src/assets/images/cookie-with-flame.png" alt="cookie">
