@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
     <title>Home</title>
+    <!-- <link rel="stylesheet" type="text/css" href="./styles/cookies.css" /> -->
+
+    <link rel="preload" href="./styles/cookies.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="./styles/cookies.css"></noscript>
+    
+
     <link rel="stylesheet" type="text/css" href="./styles/main.css" />
     <link rel="stylesheet" type="text/css" href="./styles/home.css" />
     <link rel="stylesheet" type="text/css" href="./styles/header-desktop.css" />
@@ -14,7 +20,6 @@
     <link rel="stylesheet" type="text/css" href="./styles/reviews.css" />
     <link rel="stylesheet" type="text/css" href="./styles/vip.css" />
     <link rel="stylesheet" type="text/css" href="./styles/burger-menu.css" />
-    <link rel="stylesheet" type="text/css" href="./styles/cookies.css" />
     <link rel="stylesheet" type="text/css" href="./styles/main-carousel.css" />
     <link rel="stylesheet" type="text/css" href="./styles/product-carousel.css" />
     <script src="./scripts/main.js" defer></script>
@@ -99,7 +104,6 @@
                 </div>
                 <div class="popular-middle">
                     <div class="popular-games-wrapper">
-                        <img id="prevBtn" class="games-arrow" src="./assets/images/arrleft.png" alt="arrow">
                         <div class="popular-games-list">
                           <a href="https://demo.swintt.com/casino/default/game/casino5.html?playerHandle=999999&account=FunAcct&gameName=Golden888&gameType=0&gameId=1146&lang=en&lsdId=swintt&deviceType=web&brandedLoader=swintt&lobbyUrl=https://demo.swintt.com&t=1678270834467">
                             <div class="game">
@@ -122,7 +126,6 @@
                             </div>
                           </a>
                         </div>
-                        <img id="nextBtn" class="games-arrow" src="./assets/images/arrright.png" alt="arrow">
                     </div>
 
                     <div class="popular-carousel-container">
@@ -134,8 +137,7 @@
                             <div  class="popular-slide-image">
                               <img class="popular-arrow-prev" src="./assets/images/arrleft.png" alt="arrow">
                               <img class="popular-slide-img"  src="./assets/images/goldengroup.png" alt="fire">
-                    
-                              <img class="popular-arrow-next" src="./assets/images/arrright.png" alt="arrow">
+                              <img class="popular-arrow-next arr-rotate" src="./assets/images/arrleft.png" alt="arrow">
                             </div>
                             <div class="popular-carousel-controls">
                               <label for="popular-img-3" class="popular-prev-slide">
@@ -156,7 +158,7 @@
                               <img class="popular-arrow-prev" src="./assets/images/arrleft.png" alt="arrow">
                               <img class="popular-slide-img" src="./assets/images/goldendragongroup.png" alt="fire">
                     
-                              <img class="popular-arrow-next" src="./assets/images/arrright.png" alt="arrow">
+                              <img class="popular-arrow-next arr-rotate" src="./assets/images/arrleft.png" alt="arrow">
                             </div>
                             <div class="popular-carousel-controls">
                               <label for="popular-img-1" class="popular-prev-slide">
@@ -177,7 +179,7 @@
                               <img class="popular-arrow-prev" src="./assets/images/arrleft.png" alt="arrow">
                               <img class="popular-slide-img" src="./assets/images/lootthetraingroup.png" alt="fire">
                     
-                              <img class="popular-arrow-next" src="./assets/images/arrright.png" alt="arrow">
+                              <img class="popular-arrow-next arr-rotate" src="./assets/images/arrleft.png" alt="arrow">
                             </div>
                             <div class="popular-carousel-controls">
                               <label for="popular-img-2" class="popular-prev-slide">
@@ -203,7 +205,6 @@
                     <span class="sport-top-title">SPORTS-THEMED GAMES</span>
 
                     <div class="sports-games-wrapper">
-                        <img class="games-arrow" src="./assets/images/arrleft.png" alt="arrow">
                         <div class="popular-games-list">
                           <a href="https://gameforge.com/en-US/littlegames/basketball-io/#">
                             <div class="game">
@@ -227,7 +228,6 @@
                           </a>
 
                         </div>
-                        <img class="games-arrow" src="./assets/images/arrright.png" alt="arrow">
                     </div>
  
                     <div class="product-carousel-container">
@@ -239,7 +239,7 @@
                               <img class="product-arrow-prev" src="./assets/images/arrleft.png" alt="arrow">
                               <img class="product-slide-img" src="./assets/images/sport_game_1.png" alt="fire">
                       
-                              <img class="product-arrow-next" src="./assets/images/arrright.png" alt="arrow">
+                              <img class="product-arrow-next arr-rotate" src="./assets/images/arrleft.png" alt="arrow">
                             </div>
                             <div class="product-carousel-controls">
                               <label for="product-img-3" class="product-prev-slide">
@@ -260,7 +260,7 @@
                               <img class="product-arrow-prev" src="./assets/images/arrleft.png" alt="arrow">
                               <img class="product-slide-img" src="./assets/images/sport_game_2.png" alt="fire">
                       
-                              <img class="product-arrow-next" src="./assets/images/arrright.png" alt="arrow">
+                              <img class="product-arrow-next arr-rotate" src="./assets/images/arrleft.png" alt="arrow">
                             </div>
                             <div class="product-carousel-controls">
                               <label for="product-img-1" class="product-prev-slide">
@@ -281,7 +281,7 @@
                               <img class="product-arrow-prev" src="./assets/images/arrleft.png" alt="arrow">
                               <img class="product-slide-img" src="./assets/images/sport_game_3.png" alt="fire">
                       
-                              <img class="product-arrow-next" src="./assets/images/arrright.png" alt="arrow">
+                              <img class="product-arrow-next arr-rotate" src="./assets/images/arrleft.png" alt="arrow">
                             </div>
                             <div class="product-carousel-controls">
                               <label for="product-img-2" class="product-prev-slide">
@@ -319,7 +319,7 @@
                           <div class="slide-image">
                             <div class="slide-img-wrapper">
                                 <img class="features-arrow features-arrow-left" src="./assets/images/arrleft.png" alt="arrow">
-                                <img class="features-arrow features-arrow-right" src="./assets/images/arrright.png" alt="arrow">
+                                <img class="features-arrow features-arrow-right arr-rotate" src="./assets/images/arrleft.png" alt="arrow">
                                 <img class="features-img" src="./assets/images/trophywithflame.png" alt="flame">
                             </div>
                             <div class="slide-text-block">
@@ -341,7 +341,7 @@
                           <div class="slide-image">
                             <div class="slide-img-wrapper">
                                 <img class="features-arrow features-arrow-left" src="./assets/images/arrleft.png" alt="arrow">
-                                <img class="features-arrow features-arrow-right" src="./assets/images/arrright.png" alt="arrow">
+                                <img class="features-arrow features-arrow-right arr-rotate" src="./assets/images/arrleft.png" alt="arrow">
                                 <img class="features-img" src="./assets/images/gear-with-flame.png" alt="flame">
                             </div>
                             <div class="slide-text-block">
@@ -366,7 +366,7 @@
                             <div class="slide-img-wrapper">
                               <img class="features-arrow features-arrow-left" src="./assets/images/arrleft.png" alt="arrow">
                               <img class="features-img" src="./assets/images/gameboy-with-flame.png" alt="flame">
-                              <img class="features-arrow features-arrow-right" src="./assets/images/arrright.png" alt="arrow">
+                              <img class="features-arrow features-arrow-right arr-rotate" src="./assets/images/arrleft.png" alt="arrow">
                             </div>
                             <div class="slide-text-block">
                               <h3 class="features-subtitle">PLAY ANYTIME, ANYWHERE</h3>

@@ -110,3 +110,7 @@
     display: block;
     width: max-content;
 }
+
+.arr-rotate {
+    transform: rotate(180deg);
+  }
