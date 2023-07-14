@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Owners";
+  src: url("../fonts/Owners-Light_.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Owners Narrow";
+  src: url("../fonts/Owners_Narrow-Bold_.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  
+}
+
+@font-face {
+    font-family: "Owners Narrow";
+    src: url("../fonts/Owners_Narrow-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+}
