@@ -1,5 +1,39 @@
 @import "../styles/fonts.css";
 
+/* mobile */
+@media (max-width: 1110px) {
+ body  {
+  padding: 0 48px 87px;
+      background: url('../assets/images/fire-background.png') center 20px/ 1224px auto no-repeat,
+      linear-gradient(to top, #0E1851 90%, #0c133c 20%);
+ }
+
+ .cookie-title {
+    margin-bottom: 35px;
+    font-size: 40px;
+ }
+
+  #burger-menu2.show {
+    margin-left: -48px;
+  }
+}
+
+/* desktop */
+@media (min-width: 1111px) {
+  #burger-menu2.show {
+    margin-left: -97px;
+  }
+
+  .cookie-title {
+    font-size: 50px;
+    margin-bottom: 27px;
+  }
+ body {
+     padding: 0 149px 83px 97px;
+       background: url('../assets/images/fire-background.png') 0 124px/ 100% auto no-repeat, linear-gradient(to top, #0E1851 80%, #0c133c 30%);
+ }
+}
+
 h1 {
   margin: 0;
 }
@@ -26,15 +60,7 @@ p {
 body {
   margin: 0;
   min-height: 100vh;
-  background: url('../assets/images/fire-background.png') 0 124px/ 100% auto no-repeat, linear-gradient(to top, #0E1851 80%, #0c133c 30%);
   color: #fff;
-  padding: 0 149px 83px 97px;
-
-  @media (max-width: 1110px) {
-    padding: 0 48px 87px;
-    background: url('../assets/images/fire-background.png') center 20px/ 1224px auto no-repeat,
-      linear-gradient(to top, #0E1851 90%, #0c133c 20%);
-  }
 }
 
 main {
@@ -46,14 +72,6 @@ main {
   font-weight: 700;
   letter-spacing: 4px;
   text-transform: uppercase;
-  font-size: 50px;
-
-  margin-bottom: 27px;
-
-  @media (max-width: 1110px) {
-    margin-bottom: 35px;
-    font-size: 40px;
-  }
 }
 
 .cookie-subtitle {
@@ -77,11 +95,6 @@ main {
 
 #burger-menu2.show {
   display: block;
-  margin-left: -97px;
-  
-  @media (max-width: 1110px) {
-    margin-left: -48px;
-  }
 }
 
 .hidden {

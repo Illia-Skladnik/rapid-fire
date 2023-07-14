@@ -1,3 +1,7 @@
+.menu .burger-link:last-of-type {
+    margin-bottom: 56px;
+}
+
 .menu {
     height: 660px;
     background-color: #0C133D;
@@ -6,10 +10,6 @@
     width: 100%;
     overflow: hidden;
     height: 100%;
-
-    .burger-link:last-of-type {
-        margin-bottom: 56px;
-    }
 }
 
 .nav-container {

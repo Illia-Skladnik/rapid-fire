@@ -1,71 +1,81 @@
-.reviews-title {
-    font-size: 40px;
-    line-height: 46px;
-    font-weight: bold;
-    color: #fff;
+/* mobile */
+@media (max-width: 1279px) {
+    .reviews-title {
+        font-size: 40px;
+        line-height: 46px;
+        margin: 139px auto 84px;
+    }
 
-    margin: 139px auto 84px;
-    width: fit-content;
+    .review-card {
+        width: 324px;
+        height: 546px;
+    }
 
-    @media(min-width: 1280px) {
+    .reviews-wrapper {
+        width: 324px;
+        margin: 0 auto 117px;
+    }
+
+    .reviews-wrapper .review-card:first-child {
+        margin-bottom: 51px;
+        background: url(../assets/images/firstreviewmobile.png);
+    }
+
+    .reviews-wrapper .review-card:nth-child(2) {
+        margin-bottom: 62px;
+        background: url(../assets/images/secondreviewmobile.png);
+    }
+
+    .reviews-wrapper .review-card:last-child {
+        height: 558px;
+        background: url(../assets/images/thirddreviewmobile.png);
+    }
+}
+
+/* desktop */
+@media (min-width: 1280px) {
+    .reviews-wrapper .review-card:last-child {
+        height: 581px;
+        background: url(../assets/images/thirdreviewdesktop.png);
+    }
+    
+    .reviews-wrapper .review-card:nth-child(2) {
+        margin-bottom: 0;
+        background: url(../assets/images/secondreviewdesktop.png);
+    }
+
+    .reviews-wrapper .review-card:first-child {
+        margin-bottom: 0;
+        background: url(../assets/images/firstreviewdesktop.png);
+    }
+
+    .reviews-wrapper {
+        width: 1086px;
+        margin: 0 auto 36px;
+        display: flex;
+        gap: 30px;
+    }
+
+    .reviews-title {
         font-size: 50px;
         line-height: 48px;
-
         margin: 43px auto 45px;
-    } 
+    }
+
+    .review-card {
+        width: 342px;
+        height: 581px;
+    }
+}
+
+.reviews-title {
+    font-weight: bold;
+    color: #fff;
+    width: fit-content;
 }
 
 .review-card {
-    width: 324px;
-    height: 546px;
     padding: 160px 24px 0;
-
-    @media(min-width: 1280px) {
-        width: 342px;
-        height: 581px;
-    } 
-}
-
-.reviews-wrapper {
-    width: 324px;
-    margin: 0 auto 117px;
-
-    @media(min-width: 1280px) {
-        width: 1086px;
-        display: flex;
-        gap: 30px;
-        margin-bottom: 36px;
-    } 
-
-    .review-card:first-child {
-        margin-bottom: 51px;
-        background: url(../assets/images/firstreviewmobile.png);
-
-        @media(min-width: 1280px) {
-            margin-bottom: 0;
-            background: url(../assets/images/firstreviewdesktop.png);
-        } 
-    }
-
-    .review-card:nth-child(2) {
-        margin-bottom: 62px;
-        background: url(../assets/images/secondreviewmobile.png);
-
-        @media(min-width: 1280px) {
-            margin-bottom: 0;
-            background: url(../assets/images/secondreviewdesktop.png);
-        } 
-    }
-
-    .review-card:last-child {
-        background: url(../assets/images/thirddreviewmobile.png);
-        height: 558px;
-
-        @media(min-width: 1280px) {
-            background: url(../assets/images/thirdreviewdesktop.png);
-            height: 581px;
-        } 
-    }
 }
 
 .review-name {

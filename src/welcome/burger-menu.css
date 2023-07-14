@@ -1,3 +1,19 @@
+.menu-pop .burger-link:last-of-type {
+    margin-bottom: 56px;
+}
+
+@media(min-width: 1240px)  {
+    .menu-pop {
+        margin: 0;
+    }
+}
+
+@media (max-width: 1110px) {
+    .menu-pop {
+        margin-left: -48px;
+    }
+}
+
 .menu-pop {
     background-color: #0C133D;
     position: fixed;
@@ -5,15 +21,6 @@
     width: 100%;
     overflow: hidden;
     height: 100%;
-    margin-left: -48px;
-
-    @media(min-width: 1110px) {
-        margin: 0;
-    }
-
-    .burger-link:last-of-type {
-        margin-bottom: 56px;
-    }
 }
 
 .nav-container-pop {

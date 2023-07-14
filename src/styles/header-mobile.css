@@ -1,14 +1,23 @@
 @import "./fonts.css";
 
+/* mobile */
+@media (max-width: 1279px) {
+    .header-mobile {
+        display: block;
+    }
+}
+
+/* desktop */
+@media (min-width: 1280px) {
+    .header-mobile {
+        display: none;
+    }
+}
+
 .header-mobile {
-    display: block;
     padding-top: 31px;
     position: relative;
     z-index: 1;
-    
-    @media (min-width: 1280px) {
-        display: none;
-    }
 }
 
 .nav-mobile {

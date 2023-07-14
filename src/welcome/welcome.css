@@ -1,5 +1,40 @@
 @import "../styles/fonts.css";
 
+/* mobile */
+@media (max-width: 1110px) {
+ body {
+  padding: 0 48px 87px;
+      background: url('../assets/images/fire-background.png') center 20px/ 1224px auto no-repeat,
+      linear-gradient(to top, #0E1851 60%, #0c133c 40%);
+ }
+
+ main {
+    padding-top: 45px;
+    width: max-content;
+ }
+
+ .login-title {
+      margin-bottom: 35px;
+      font-size: 40px;
+ }
+}
+
+/* desktop */
+@media (min-width: 1111px) {
+  .login-title {
+  font-size: 50px;
+  margin-bottom: 27px;
+  }
+
+  main {
+  padding-top: 61px;
+  }
+
+  body {
+    background: #0c133c url('../assets/images/Game_controller.png') no-repeat 100% 70px;
+  }
+}
+
 h1 {
   margin: 0;
 }
@@ -8,25 +43,12 @@ body {
   margin: 0;
   box-sizing: border-box;
   min-height: 100vh;
-  background: #0c133c url('../assets/images/Game_controller.png') no-repeat 100% 70px;
   color: #fff;
-  
-  @media (max-width: 1110px) {
-    padding: 0 48px 87px;
-    background: url('../assets/images/fire-background.png') center 20px/ 1224px auto no-repeat,
-      linear-gradient(to top, #0E1851 60%, #0c133c 40%);
-  }
 }
 
 main {
-  padding-top: 61px;
   max-width: 1057px;
   margin: 0 auto;
-
-  @media (max-width: 1110px) {
-    padding-top: 45px;
-    width: max-content;
-  }
 }
 
 .login-title {
@@ -34,34 +56,34 @@ main {
   font-weight: 700;
   letter-spacing: 4px;
   text-transform: uppercase;
-  font-size: 50px;
   color: #F71273;
-
-  margin-bottom: 27px;
-
-  @media (max-width: 1110px) {
-      margin-bottom: 35px;
-      font-size: 40px;
-    }
 }
 
-.login-form {
-  margin-bottom: 27px;
-  max-width: 558px;
+.login-form .label:first-child {
+  display: block;
+  margin-bottom: 21px;
+}
 
-  .label:first-child {
-    display: block;
-    margin-bottom: 21px;
-  }
-
-  @media (max-width: 600px) {
+@media (max-width: 600px) {
+  .login-form {
     max-width: 324px;
   }
+}
 
-  @media (max-width: 1110px) {
+@media (max-width: 1110px) {
+  .login-form {
     margin-bottom: 35px;
   }
 }
+
+@media (min-width: 1110px) {
+  .login-form {
+    margin-bottom: 27px;
+    max-width: 558px;
+  }
+  
+}
+
 
 .login-form-btn {
   width: 100%;

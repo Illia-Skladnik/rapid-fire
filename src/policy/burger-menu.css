@@ -1,3 +1,7 @@
+.menu-pop .burger-link:last-of-type {
+    margin-bottom: 56px;
+}
+
 .menu-pop {
     background-color: #0C133D;
     position: fixed;
@@ -5,10 +9,6 @@
     width: 100%;
     overflow: hidden;
     height: 100%;
-
-    .burger-link:last-of-type {
-        margin-bottom: 56px;
-    }
 }
 
 .nav-container-pop {
